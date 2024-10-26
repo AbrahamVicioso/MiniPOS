@@ -43,5 +43,10 @@
                 {{ __('Log in') }}
             </x-primary-button>
         </div>
+        <ul class="text-center mt-3">
+            <li>
+                <a href="/register" class="text-center underline text-gray-600 hover:text-gray-900 ">I dont have account</a>
+            </li>
+        </ul>
     </form>
 </x-guest-layout>
